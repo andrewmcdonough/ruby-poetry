@@ -1,0 +1,1154 @@
+---
+- code: gu
+  desc: Guardian Unlimited
+  feeds:
+    - desc: front page
+      url: http://www.guardian.co.uk/rss
+    - desc: UK latest
+      url: 'http://www.guardian.co.uk/rssfeed/0,,11,00.xml'
+    - desc: World latest
+      url: 'http://www.guardian.co.uk/rssfeed/0,,12,00.xml'
+    - desc: Football
+      url: 'http://www.guardian.co.uk/rssfeed/0,,5,00.xml'
+    - desc: Business
+      url: 'http://www.guardian.co.uk/rssfeed/0,,24,00.xml'
+    - desc: Education Guardian
+      url: 'http://www.guardian.co.uk/rssfeed/0,,8,00.xml'
+    - desc: Books
+      url: 'http://www.guardian.co.uk/rssfeed/0,,10,00.xml'
+    - desc: Comment
+      url: 'http://www.guardian.co.uk/rssfeed/0,,27,00.xml'
+    - desc: Environment
+      url: 'http://www.guardian.co.uk/rssfeed/0,,29,00.xml'
+    - desc: Film news
+      url: 'http://www.guardian.co.uk/rssfeed/0,,16,00.xml'
+    - desc: Leaders
+      url: 'http://www.guardian.co.uk/rssfeed/0,,28,00.xml'
+    - desc: Politics
+      url: 'http://www.guardian.co.uk/rssfeed/0,15065,19,00.xml'
+    - desc: Science
+      url: 'http://www.guardian.co.uk/rssfeed/0,,18,00.xml'
+    - desc: Shopping
+      url: 'http://www.guardian.co.uk/rssfeed/0,,22,00.xml'
+    - desc: Sport
+      url: 'http://www.guardian.co.uk/rssfeed/0,,7,00.xml'
+    - desc: Technology
+      url: 'http://www.guardian.co.uk/rssfeed/0,,20,00.xml'
+    - desc: The Guide
+      url: 'http://www.guardian.co.uk/rssfeed/0,,21,00.xml'
+    - desc: Media Guardian
+      url: 'http://www.guardian.co.uk/rssfeed/0,,4,00.xml'
+    - desc: The Observer
+      url: 'http://www.guardian.co.uk/rssfeed/0,,15,00.xml'
+    - desc: Society Guardian
+      url: 'http://www.guardian.co.uk/rssfeed/0,,9,00.xml'
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.guardian.co.uk/webfeeds
+- code: times
+  desc: Times Online
+  feeds:
+    - desc: TimesOnline's leading stories
+      url: http://www.timesonline.co.uk/tol/feeds/rss/topstories.xml"
+    - desc: Business
+      url: http://www.timesonline.co.uk/tol/feeds/rss/business.xml"
+    - desc: Driving
+      url: http://www.timesonline.co.uk/tol/feeds/rss/driving.xml"
+    - desc: Comment
+      url: http://women.timesonline.co.uk/tol/feeds/rss/comment.xml"
+    - desc: Law
+      url: http://www.timesonline.co.uk/tol/feeds/rss/law.xml"
+    - desc: Most Curious
+      url: http://www.timesonline.co.uk/tol/feeds/rss/most_curious.xml"
+    - desc: Obituaries
+      url: http://timesonline.co.uk/feeds/rss/obituaries.xml"
+    - desc: Property
+      url: http://www.timesonline.co.uk/tol/feeds/rss/property.xml "
+    - desc: Tech and Web
+      url: http://www.timesonline.co.uk/tol/feeds/rss/tech.xml"
+    - desc: Travel
+      url: http://www.timesonline.co.uk/tol/feeds/rss/travel.xml"
+    - desc: Film
+      url: http://www.timesonline.co.uk/tol/feeds/rss/film.xml"
+    - desc: Rugby RSS Feed
+      url: http://timesonline.co.uk/tol/feeds/rss/rugby.xml"
+    - desc: Sport
+      url: http://www.timesonline.co.uk/tol/feeds/rss/sport.xml"
+    - desc: UK News
+      url: http://www.timesonline.co.uk/tol/feeds/rss/uknews.xml"
+    - desc: Tennis
+      url: http://timesonline.co.uk/tol/feeds/rss/tennis.xml "
+    - desc: The TLS
+      url: http://www.timesonline.co.uk/tol/feeds/rss/thetls.xml "
+    - desc: Women
+      url: http://www.timesonline.co.uk/tol/feeds/rss/womenrss.xml"
+    - desc: World News
+      url: http://www.timesonline.co.uk/tol/feeds/rss/worldnews.xml"
+    - desc: David Aaronovitch
+      url: http://timesonline.co.uk/tol/feeds/davidaaronovitch/rss.xml "
+    - desc: Gerard Baker
+      url: http://timesonline.co.uk/tol/feeds/gerardbaker/rss.xml "
+    - desc: Simon Barnes
+      url: http://timesonline.co.uk/tol/feeds/simonbarnes/rss.xml "
+    - desc: Camilla Cavendish
+      url: http://timesonline.co.uk/tol/feeds/camillacavendish/rss.xml "
+    - desc: Jeremy Clarkson
+      url: http://timesonline.co.uk/tol/feeds/jeremyclarkson/rss.xml "
+    - desc: Guest contributors
+      url: http://timesonline.co.uk/tol/feeds/guestcontributors/rss.xml "
+    - desc: Alan Coren
+      url: http://timesonline.co.uk/tol/feeds/alancoren/rss.xml "
+    - desc: Giles Coren
+      url: http://timesonline.co.uk/tol/feeds/gilescoren/rss.xml "
+    - desc: Michael Gove
+      url: http://timesonline.co.uk/tol/feeds/michaelgove/rss.xml "
+    - desc: Daniel Finkelstein
+      url: http://timesonline.co.uk/tol/feeds/danielfinkelstein/rss.xml "
+    - desc: Tim Hames
+      url: http://timesonline.co.uk/tol/feeds/timhames/rss.xml "
+    - desc: Mick Hume
+      url: http://timesonline.co.uk/tol/feeds/mickhume/rss.xml "
+    - desc: Simon Jenkins
+      url: http://timesonline.co.uk/tol/feeds/simonjenkins/rss.xml "
+    - desc: Rachel Johnson
+      url: http://timesonline.co.uk/tol/feeds/racheljohnson/rss.xml "
+    - desc: Anatole Kaletsky
+      url: http://timesonline.co.uk/tol/feeds/anatolekaletsky/rss.xml "
+    - desc: India Knight
+      url: http://timesonline.co.uk/tol/feeds/indiaknight/rss.xml "
+    - desc: Rod Liddle
+      url: http://timesonline.co.uk/tol/feeds/rodliddle/rss.xml "
+    - desc: Magnus Linklater
+      url: http://timesonline.co.uk/tol/feeds/magnuslinklater/rss.xml "
+    - desc: Ben MacIntyre
+      url: http://timesonline.co.uk/tol/feeds/benmacintyre/rss.xml "
+    - desc: Bronwen Maddox
+      url: http://timesonline.co.uk/tol/feeds/bronwenmaddox/rss.xml "
+    - desc: Minette Marin
+      url: http://timesonline.co.uk/tol/feeds/minettemarrin/rss.xml "
+    - desc: Alice Miles
+      url: http://timesonline.co.uk/tol/feeds/alicemiles/rss.xml "
+    - desc: Caitlin Moran
+      url: http://timesonline.co.uk/tol/feeds/caitlinmoran/rss.xml "
+    - desc: Richard Morrison
+      url: http://timesonline.co.uk/tol/feeds/richardmorrison/rss.xml "
+    - desc: Movers & Shakers
+      url: http://www.timesonline.co.uk/tol/feeds/rss/moversandshakers.xml"
+    - desc: Matthew Parris
+      url: http://timesonline.co.uk/tol/feeds/matthewparris/rss.xml "
+    - desc: Michael Portillo
+      url: http://timesonline.co.uk/tol/feeds/michaelportillo/rss.xml "
+    - desc: Libby Purves
+      url: http://timesonline.co.uk/tol/feeds/libbypurves/rss.xml "
+    - desc: Peter Riddell
+      url: http://timesonline.co.uk/tol/feeds/peterriddell/rss.xml "
+    - desc: William Rees-Mogg
+      url: http://timesonline.co.uk/tol/feeds/williamreesmogg/rss.xml "
+    - desc: Mary Ann Sieghart
+      url: http://timesonline.co.uk/tol/feeds/maryannsieghart/rss.xml "
+    - desc: Graham Stewart
+      url: http://timesonline.co.uk/tol/feeds/grahamstewart/rss.xml "
+    - desc: Andrew Sullivan
+      url: http://timesonline.co.uk/tol/feeds/andrewsullivan/rss.xml "
+    - desc: Christine Toomey
+      url: http://timesonline.co.uk/tol/feeds/christinetoomey/rss.xml "
+    - desc: Janice Turner
+      url: http://timesonline.co.uk/tol/feeds/janiceturner/rss.xml "
+    - desc: "Blog: A Don's Life"
+      url: http://timesonline.typepad.com/dons_life/rss.xml"
+    - desc: 'Blog: Alpha Mummy'
+      url: http://timesonline.typepad.com/alphamummy/rss.xml"
+    - desc: 'Blog: Asia Exile'
+      url: http://timesonline.typepad.com/times_tokyo_weblog/rss.xml"
+    - desc: 'Blog: Big Brother'
+      url: http://timesonline.typepad.com/big_brother/rss.xml"
+    - desc: 'Blog: Cassandra'
+      url: http://timesonline.typepad.com/cassandra/rss.xml"
+    - desc: 'Blog: Charles Bremner'
+      url: http://timescorrespondents.typepad.com/charles_bremner/rss.xml"
+    - desc: 'Blog: Comment Central'
+      url: http://timesonline.typepad.com/comment/rss.xml"
+    - desc: 'Blog: Consumer Central'
+      url: http://timesonline.typepad.com/consumer/rss.xml"
+    - desc: 'Blog: David Aaronovitch'
+      url: http://timesonline.typepad.com/david_aaronovitch/rss.xml"
+    - desc: 'Blog: Eco Worrier'
+      url: http://timesonline.typepad.com/eco_worrier/rss.xml"
+    - desc: 'Blog: Fashion'
+      url: http://timesonline.typepad.com/fashion/rss.xml"
+    - desc: 'Blog: Formula One blog'
+      url: http://timesonline.typepad.com/formula_one/rss.xml"
+    - desc: 'Blog: Gerard Baker'
+      url: http://timescorrespondents.typepad.com/baker/rss.xml"
+    - desc: 'Blog: India Knight'
+      url: http://timesonline.typepad.com/india_knight/rss.xml"
+    - desc: 'Blog: Inside Iraq'
+      url: http://timesonline.typepad.com/inside_iraq_weblog/rss.xml"
+    - desc: 'Blog: Irwin Stelzer'
+      url: http://timesonline.typepad.com/irwin_stelzer/rss.xml"
+    - desc: 'Blog: Line and Length'
+      url: http://timesonline.typepad.com/line_and_length/rss.xml"
+    - desc: 'Blog: Mick Smith'
+      url: http://timesonline.typepad.com/mick_smith/rss.xml "
+    - desc: 'Blog: Money Weblog'
+      url: http://timesbusiness.typepad.com/money_weblog/rss.xml"
+    - desc: 'Blog: News'
+      url: http://timesnews.typepad.com/news/rss.xml"
+    - desc: 'Blog: Peter Stothard'
+      url: http://timescolumns.typepad.com/stothard/rss.xml"
+    - desc: 'Blog: Rafael Nadal'
+      url: http://timesonline.typepad.com/rafael_nadal/rss.xml"
+    - desc: 'Blog: Ruth Gledhill'
+      url: http://timescolumns.typepad.com/gledhill/rss.xml"
+    - desc: 'Blog: Rugby: Tackling the issues'
+      url: http://timesonline.typepad.com/sport/rss.xml"
+    - desc: 'Blog: Sinofile'
+      url: http://timescorrespondents.typepad.com/sinofile/rss.xml"
+    - desc: 'Blog: Surf Nation'
+      url: http://timesonline.typepad.com/surf_nation/rss.xml"
+    - desc: 'Blog: Style PS'
+      url: http://timesonline.typepad.com/style/rss.xml"
+    - desc: 'Blog: Technology'
+      url: http://timesonline.typepad.com/technology/rss.xml"
+    - desc: 'Blog: TheGame '
+      url: http://timesonline.typepad.com/thegame/rss.xml"
+    - desc: 'Blog: Travel Blog'
+      url: http://timestravel.typepad.com/travel/rss.xml"
+    - desc: 'Blog: Wardrobe Mistress'
+      url: http://timesonline.typepad.com/wardrobe_mistress/rss.xml"
+    - desc: 'Blog: William Rees Mogg'
+      url: http://timesonline.typepad.com/rees_mogg/rss.xml"
+    - desc: 'Blog: Wimbledon 2007'
+      url: http://timesonline.typepad.com/wimbledon/rss.xml"
+    - desc: 'Podcast: The Bugle'
+      url: http://podcast.timesonline.co.uk/rss/thebugle.rss"
+    - desc: "Podcast: Gordon Ramsay's Fast Food"
+      url: http://podcast.timesonline.co.uk/rss/gordon2.rss"
+    - desc: 'Podcast: Twelve Business ideas'
+      url: http://podcast.timesonline.co.uk/rss/businessideasdownload.rss"
+    - desc: 'Podcast: Cool in Your Code'
+      url: http://podcast.timesonline.co.uk/rss/ciyc-downloads.rss#cid=OTC-RSS&attr=feedtype"
+    - desc: 'Podcast: TheKnowledge'
+      url: http://podcast.timesonline.co.uk/rss/theknowledgemp3.rss"
+    - desc: 'Podcast: Sounds Music Videos'
+      url: http://podcast.timesonline.co.uk/rss/thetimessoundsvideopodcast.rss"
+    - desc: 'Podcast: The Game'
+      url: http://podcast.timesonline.co.uk/rss/thegamepodcastmp3.rss"
+    - desc: 'Podcast: Future of business'
+      url: http://podcast.timesonline.co.uk/rss/futureofbusiness.rss"
+    - desc: 'Podcast: Screenonline'
+      url: http://podcast.timesonline.co.uk/rss/screenonline2.rss"
+    - desc: 'Podcast: Books'
+      url: http://podcast.timesonline.co.uk/rss/timesonlinebookspodcastmp3.rss"
+    - desc: 'Podcast: The Note'
+      url: http://podcast.timesonline.co.uk/rss/thenote.rss"
+    - desc: 'Podcast: Clive James Video Cast'
+      url: http://podcast.timesonline.co.uk/rss/clivejames.rss"
+    - desc: "Podcast: Baddiel & Skinner's World Cup"
+      url: http://podcast.timesonline.co.uk/rss/baddielandskinnerpodcastmp3.rss"
+    - desc: 'Podcast: Screenonline'
+      url: http://podcast.timesonline.co.uk/rss/screenonline2.rss"
+    - desc: 'Podcast: Future of business'
+      url: http://podcast.timesonline.co.uk/rss/futureofbusiness.rss"
+    - desc: 'Podcast: Edinburgh Fringe Comedy'
+      url: http://podcast.timesonline.co.uk/rss/edinburghfringecomedypodcastmp3.rss"
+    - desc: 'Podcast: Classical Music'
+      url: http://podcast.timesonline.co.uk/rss/thetimesclassicalpodcastmp3.rss"
+    - desc: 'Podcast: Sounds'
+      url: http://podcast.timesonline.co.uk/rss/thetimessoundspodcastmp3.rss"
+    - desc: "Podcast: Hoggy's Ashes Video Diary"
+      url: http://podcast.timesonline.co.uk/rss/ashesvideodiary.rss"
+    - desc: 'Podcast: MBA'
+      url: http://podcast.timesonline.co.uk/rss/mbamp3.rss"
+    - desc: 'Podcast: In Gear (Video)'
+      url: http://podcast.timesonline.co.uk/rss/ingear.rss"
+    - desc: 'Podcast: Learn Mandarin'
+      url: http://podcast.timesonline.co.uk/rss/mandarinmp3.rss"
+    - desc: 'Podcast: Dom Joly vs The Planet'
+      url: http://podcast.timesonline.co.uk/rss/daringdommp3.rss"
+    - desc: 'Podcast: Sudoku and Games'
+      url: http://podcast.timesonline.co.uk/rss/sudoku.rss"
+    - desc: 'Podcast: Iraq Video Diary'
+      url: http://podcast.timesonline.co.uk/rss/iraq.rss"
+    - desc: 'Podcast: Anacoana Music Downloads'
+      url: http://podcast.timesonline.co.uk/rss/anacaona.rss"
+    - desc: 'Podcast: Test Cricket'
+      url: http://podcast.timesonline.co.uk/rss/worldcupcricketmp3.rss"
+    - desc: "Podcast: Jason Byrne's Just Comedy"
+      url: http://podcast.timesonline.co.uk/rss/justcomedymp3.rss"
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.timesonline.co.uk/tol/audio_video/rss/
+- code: indy
+  desc: The Independent
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://news.independent.co.uk/article293771.ece
+- code: ft
+  desc: Financial Times
+  feeds:
+    - desc:  UK
+      url: http://www.ft.com/rss/home/uk
+    - desc:  US
+      url: http://www.ft.com/rss/home/us
+    - desc:  Europe
+      url: http://www.ft.com/rss/home/europe
+    - desc:  Asia
+      url: http://www.ft.com/rss/home/asia
+    - desc:  Companies main
+      url: http://www.ft.com/rss/companies
+    - desc:  Aerospace &amp; defence
+      url: http://www.ft.com/rss/companies/aerospace
+    - desc:  Autos
+      url: http://www.ft.com/rss/companies/autos
+    - desc:  Basic industries
+      url: http://www.ft.com/rss/companies/basic
+    - desc:  Consumer industries
+      url: http://www.ft.com/rss/companies/consumer
+    - desc:  Drugs &amp; Healthcare
+      url: http://www.ft.com/rss/companies/drugs
+    - desc: ' Energy, utilities, mining'
+      url: http://www.ft.com/rss/companies/energy
+    - desc:  Financial services
+      url: http://www.ft.com/rss/companies/financial
+    - desc:  IT
+      url: http://www.ft.com/rss/companies/it
+    - desc:  Media &amp; internet
+      url: http://www.ft.com/rss/companies/media
+    - desc:  Property
+      url: http://www.ft.com/rss/companies/property
+    - desc:  Retailing &amp; leisure
+      url: http://www.ft.com/rss/companies/retailing
+    - desc:  Telecoms
+      url: http://www.ft.com/rss/companies/telecoms
+    - desc:  Transport
+      url: http://www.ft.com/rss/companies/transport
+    - desc:  US
+      url: http://www.ft.com/rss/companies/us
+    - desc:  Europe
+      url: http://www.ft.com/rss/companies/europe
+    - desc:  UK
+      url: http://www.ft.com/rss/companies/uk
+    - desc:  UK smaller companies
+      url: http://www.ft.com/rss/companies/uksmallercompanies
+    - desc:  Asia-Pacific
+      url: http://www.ft.com/rss/companies/asiapacific
+    - desc:  Middle East &amp; Africa
+      url: http://www.ft.com/rss/companies/mideastafrica
+    - desc:  Americas
+      url: http://www.ft.com/rss/companies/americas
+    - desc:  World main
+      url: http://www.ft.com/rss/world
+    - desc:  US
+      url: http://www.ft.com/rss/world/us
+    - desc:  Europe
+      url: http://www.ft.com/rss/world/europe
+    - desc:  UK
+      url: http://www.ft.com/rss/world/uk
+    - desc:  Asia-Pacific
+      url: http://www.ft.com/rss/world/asiapacific
+    - desc:  Middle East &amp; Africa
+      url: http://www.ft.com/rss/world/mideastafrica
+    - desc:  Arab business briefing
+      url: http://www.ft.com/rss/world/mideastafrica/arabbusiness
+    - desc:  Arab-Israel conflict
+      url: http://www.ft.com/rss/indepth/arabisrael
+    - desc:  Iran
+      url: http://www.ft.com/rss/indepth/iran
+    - desc:  Spotlight on Africa
+      url: http://www.ft.com/rss/world/mideastafrica/spotlightonafrica
+    - desc:  Syria Lebanon
+      url: http://www.ft.com/rss/world/mideastafrica/syrialebanon
+    - desc:  Americas
+      url: http://www.ft.com/rss/world/americas
+    - desc:  Latin America agenda
+      url: http://www.ft.com/rss/world/americas/laa
+    - desc:  International Economy
+      url: http://www.ft.com/rss/world/economy
+    - desc:  Brussels Briefing
+      url: http://www.ft.com/rss/world/brussels
+    - desc:  Lex main
+      url: http://www.ft.com/rss/lex
+    - desc:  Best of Lex
+      url: http://www.ft.com/rss/lex/best
+    - desc:  Markets main
+      url: http://www.ft.com/rss/markets
+    - desc:  Equities
+      url: http://www.ft.com/rss/markets/equities
+    - desc:  US
+      url: http://www.ft.com/rss/markets/us
+    - desc:  Europe
+      url: http://www.ft.com/rss/markets/europe
+    - desc:  UK
+      url: http://www.ft.com/rss/markets/uk
+    - desc:  Asia-Pacific
+      url: http://www.ft.com/rss/markets/asiapacific
+    - desc:  Currencies
+      url: http://www.ft.com/rss/markets/currencies
+    - desc:  Capital markets
+      url: http://www.ft.com/rss/markets/capitalmarkets
+    - desc:  Commodities
+      url: http://www.ft.com/rss/markets/commodities
+    - desc:  Emerging markets
+      url: http://www.ft.com/rss/markets/emerging
+    - desc:  Investors notebook
+      url: http://www.ft.com/rss/markets/investor
+    - desc:  Comment &amp; analysis main
+      url: http://www.ft.com/rss/comment
+    - desc:  Comment
+      url: http://www.ft.com/rss/comment/personalview
+    - desc:  Analysis
+      url: http://www.ft.com/rss/comment/analysis
+    - desc:  Editorial comment
+      url: http://www.ft.com/rss/comment/editorial
+    - desc:  Most read
+      url: http://www.ft.com/rss/comment/mostread
+    - desc:  Columnists
+      url: http://www.ft.com/rss/comment/columnists
+    - desc:  European Comment
+      url: http://www.ft.com/rss/comment/columnists/europeancomment
+    - desc:  John Authers
+      url: http://www.ft.com/rss/comment/columnists/johnauthers
+    - desc:  John Gapper
+      url: http://www.ft.com/rss/comment/columnists/johngapper
+    - desc:  Lombard
+      url: http://www.ft.com/rss/comment/columnists/lombard
+    - desc:  Lucy Kellaway
+      url: http://www.ft.com/rss/comment/columnists/lucykellaway
+    - desc:  Martin Lukes
+      url: http://www.ft.com/rss/comment/columnists/martinlukes
+    - desc:  Martin Wolf
+      url: http://www.ft.com/rss/comment/columnists/martinwolf
+    - desc:  Philip Stephens
+      url: http://www.ft.com/rss/comment/columnists/philipstephens
+    - desc:  Quentin Peel
+      url: http://www.ft.com/rss/comment/columnists/quentinpeel
+    - desc:  Wolfgang Munchau
+      url: http://www.ft.com/rss/comment/columnists/wolfgangmunchau
+    - desc:  Investment Banking main
+      url: http://www.ft.com/rss/indepth/investmentbanking
+    - desc:  M&amp;A
+      url: http://www.ft.com/rss/indepth/investmentbanking/deal
+    - desc:  Private equity
+      url: http://www.ft.com/rss/indepth/investmentbanking/privateequity
+    - desc:  Hedge funds
+      url: http://www.ft.com/rss/indepth/investmentbanking/hedgefunds
+    - desc:  IPOs
+      url: http://www.ft.com/rss/indepth/investmentbanking/ipos
+    - desc:  China main
+      url: http://www.ft.com/rss/world/asiapacific/china
+    - desc: ' China - Economy and trade'
+      url: http://www.ft.com/rss/world/asiapacific/china/economy
+    - desc: ' China - Business'
+      url: http://www.ft.com/rss/world/asiapacific/china/business
+    - desc: ' China - Regulation and reform'
+      url: http://www.ft.com/rss/world/asiapacific/china/regulation
+    - desc: ' China - Politics and policy'
+      url: http://www.ft.com/rss/world/asiapacific/china/politics
+    - desc: ' China - Finance and markets'
+      url: http://www.ft.com/rss/world/asiapacific/china/finance
+    - desc: ' China - Society'
+      url: http://www.ft.com/rss/world/asiapacific/china/society
+    - desc:  India main
+      url: http://www.ft.com/rss/world/asiapacific/india
+    - desc: ' India - Economy and trade'
+      url: http://www.ft.com/rss/world/asiapacific/india/economy
+    - desc: ' India - Business'
+      url: http://www.ft.com/rss/world/asiapacific/india/business
+    - desc: ' India - Regulation and reform'
+      url: http://www.ft.com/rss/world/asiapacific/india/regulation
+    - desc: ' India - Politics and policy'
+      url: http://www.ft.com/rss/world/asiapacific/india/politics
+    - desc: ' India - Finance and markets'
+      url: http://www.ft.com/rss/world/asiapacific/india/finance
+    - desc: ' India - Society'
+      url: http://www.ft.com/rss/world/asiapacific/india/society
+    - desc:  Technology main
+      url: http://www.ft.com/rss/technology
+    - desc:  Digital Business
+      url: http://www.ft.com/rss/technology/digitalbusiness
+    - desc:  Business Life main
+      url: http://www.ft.com/rss/businesslife
+    - desc:  Business education
+      url: http://www.ft.com/rss/businesseducation
+    - desc:  Management
+      url: http://www.ft.com/rss/businesslife/management
+    - desc:  Entrepreneurship
+      url: http://www.ft.com/rss/businesslife/entrepreneurship
+    - desc:  Science &amp; technology
+      url: http://www.ft.com/rss/businesslife/science
+    - desc: ' Investing in China '
+      url: http://www.ft.com/rss/businesslife/investinginchina
+    - desc:  Investing in India
+      url: http://www.ft.com/rss/businesslife/investinginindia
+    - desc:  Your money main
+      url: http://www.ft.com/rss/yourmoney
+    - desc:  Your home
+      url: http://www.ft.com/rss/yourmoney/home
+    - desc:  Your investments
+      url: http://www.ft.com/rss/yourmoney/invesments
+    - desc:  Your pensions
+      url: http://www.ft.com/rss/yourmoney/pensions
+    - desc:  Your tax
+      url: http://www.ft.com/rss/yourmoney/tax
+    - desc:  Your banking
+      url: http://www.ft.com/rss/yourmoney/banking
+    - desc:  Your insurance
+      url: http://www.ft.com/rss/yourmoney/insurance
+    - desc:  Ask the FT
+      url: http://www.ft.com/rss/yourmoney/advice/asktheft
+    - desc:  Beginners guide
+      url: http://www.ft.com/rss/yourmoney/beginnersguide
+    - desc:  Doghouse
+      url: http://www.ft.com/rss/yourmoney/advice/doghouse
+    - desc: Money makeover
+      url: http://www.ft.com/rss/yourmoney/moneymakeover
+    - desc:  Money maverick
+      url: http://www.ft.com/rss/yourmoney/moneymaverick
+    - desc:  My portfolio
+      url: http://www.ft.com/rss/yourmoney/advice/myportfolio
+    - desc:  Serious money
+      url: http://www.ft.com/rss/yourmoney/serious
+    - desc:  The long view
+      url: http://www.ft.com/rss/yourmoney/thelongview
+    - desc:  Arts &amp; weekend main
+      url: http://www.ft.com/rss/artsandweekend
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.ft.com/servicestools/newstracking/rss
+- code: telegraph
+  desc: Telegraph
+  feeds:
+    - desc: All news
+      url: http://www.telegraph.co.uk/newsfeed/rss/news.xml
+    - desc: Top news
+      url: http://www.telegraph.co.uk/newsfeed/rss/news-major.xml
+    - desc: UK news
+      url: http://www.telegraph.co.uk/newsfeed/rss/news-uk_news.xml
+    - desc: International news
+      url: http://www.telegraph.co.uk/newsfeed/rss/news-international_news.xml
+    - desc: Politics
+      url: http://www.telegraph.co.uk/newsfeed/rss/news-politics.xml
+    - desc: Obituaries
+      url: http://www.telegraph.co.uk/newsfeed/rss/news-obituaries.xml
+    - desc: Opinion
+      url: http://www.telegraph.co.uk/newsfeed/rss/opinion-dt_opinion.xml
+    - desc: Leaders
+      url: http://www.telegraph.co.uk/newsfeed/rss/opinion-dt_leaders.xml
+    - desc: Business
+      url: http://www.telegraph.co.uk/newsfeed/rss/money-city_news.xml
+    - desc: Your Money
+      url: http://www.telegraph.co.uk/newsfeed/rss/money-personal_finance.xml
+    - desc: Arts
+      url: http://www.telegraph.co.uk/newsfeed/rss/arts.xml
+    - desc: Books
+      url: http://www.telegraph.co.uk/newsfeed/rss/arts-books.xml
+    - desc: Digital Life
+      url: http://www.telegraph.co.uk/newsfeed/rss/connected.xml
+    - desc: Earth
+      url: http://www.telegraph.co.uk/newsfeed/rss/earth.xml
+    - desc: Education
+      url: http://www.telegraph.co.uk/newsfeed/rss/education.xml
+    - desc: Expat
+      url: http://www.telegraph.co.uk/newsfeed/rss/global.xml
+    - desc: Fashion
+      url: http://www.telegraph.co.uk/newsfeed/rss/fashion.xml
+    - desc: Gardening
+      url: http://www.telegraph.co.uk/newsfeed/rss/gardening.xml
+    - desc: Health
+      url: http://www.telegraph.co.uk/newsfeed/rss/health.xml
+    - desc: Motoring
+      url: http://www.telegraph.co.uk/newsfeed/rss/motoring.xml
+    - desc: Property
+      url: http://www.telegraph.co.uk/newsfeed/rss/property.xml
+    - desc: Travel
+      url: http://www.telegraph.co.uk/newsfeed/rss/travel.xml
+    - desc: Food and drink
+      url: http://www.telegraph.co.uk/newsfeed/rss/wine.xml
+    - desc: Science news
+      url: http://www.telegraph.co.uk/newsfeed/rss/earth-science.xml
+    - desc: Sport
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport.xml
+    - desc: Football
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football.xml
+    - desc: Cricket
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-cricket.xml
+    - desc: Rugby Union
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-rugby_union.xml
+    - desc: Golf
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-golf.xml
+    - desc: Premiership football
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership.xml
+    - desc: Arsenal
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-arsenal.xml
+    - desc: Aston Villa
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-aston_villa.xml
+    - desc: Birmingham
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-birmingham.xml
+    - desc: Blackburn
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-blackburn.xml
+    - desc: Bolton
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-bolton.xml
+    - desc: Chelsea
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-chelsea.xml
+    - desc: Derby
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-derby.xml
+    - desc: Everton
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-everton.xml
+    - desc: Fulham
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-fulham.xml
+    - desc: Liverpool
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-liverpool.xml
+    - desc: Manchester City
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-man_city.xml
+    - desc: Manchester United
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-man_united.xml
+    - desc: Middlesbrough
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-middlesbrough.xml
+    - desc: Newcastle
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-newcastle.xml
+    - desc: Portsmouth
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-portsmouth.xml
+    - desc: Reading
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-reading.xml
+    - desc: Sunderland
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-sunderland.xml
+    - desc: Tottenham
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-tottenham.xml
+    - desc: West Ham
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-west_ham.xml
+    - desc: Wigan Athletic
+      url: http://www.telegraph.co.uk/newsfeed/rss/sport-football-premiership-wigan.xml
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.telegraph.co.uk/portal/main.jhtml?xml=/portal/rss/exclusions/rssinfo.xml
+- code: mail
+  desc: Daily Mail
+  feeds:
+    - desc: Homepage
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1766
+    - desc: News
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1770
+    - desc: World news
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1811
+    - desc: Comment
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1787
+    - desc: Sport
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1771
+    - desc: Football
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1779
+    - desc: Rugby union
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1780
+    - desc: Cricket
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1849
+    - desc: Other sport
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1781
+    - desc: TV &amp; showbiz
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1773
+    - desc: Health
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1774
+    - desc: Diet &amp; fitness
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1798
+    - desc: Women &amp; family
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1799
+    - desc: Femail
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1879
+    - desc: In the stands
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1867
+    - desc: Promotions
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1777
+    - desc: Live Night &amp; Day
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1889
+    - desc: Health notes
+      url: http://www.dailymail.co.uk/pages/xml/index.html?in_page_id=1909
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.dailymail.co.uk/pages/dmstandard/article.html?in_article_id=334032
+- code: express
+  desc: Daily Express
+  feeds:
+    - desc: News / Showbiz
+      url: http://dailyexpress.co.uk/rss/news.xml
+    - desc: Sport
+      url: http://dailyexpress.co.uk/rss/sport.xml
+    - desc: Features (All Areas)
+      url: http://dailyexpress.co.uk/rss/features.xml
+    - desc: Day &amp; Night
+      url: http://dailyexpress.co.uk/rss/dayandnight.xml
+    - desc: Express Yourself
+      url: http://dailyexpress.co.uk/rss/expressyourself.xml
+    - desc: Health
+      url: http://dailyexpress.co.uk/rss/health.xml
+    - desc: Fashion &amp; Beauty
+      url: http://dailyexpress.co.uk/rss/fashionandbeauty.xml
+    - desc: Gardening
+      url: http://dailyexpress.co.uk/rss/gardening.xml
+    - desc: Food &amp; Recipes
+      url: http://dailyexpress.co.uk/rss/food.xml
+    - desc: Have Your Say
+      url: http://dailyexpress.co.uk/rss/haveyoursay.xml
+    - desc: Express Comment
+      url: http://dailyexpress.co.uk/rss/expresscomment.xml
+    - desc: Entertainment(All Areas)
+      url: http://dailyexpress.co.uk/rss/entertainment.xml
+    - desc: Music Reviews
+      url: http://dailyexpress.co.uk/rss/music.xml
+    - desc: DVD Reviews
+      url: http://dailyexpress.co.uk/rss/dvd.xml
+    - desc: Film Reviews
+      url: http://dailyexpress.co.uk/rss/films.xml
+    - desc: Theatre Reviews
+      url: http://dailyexpress.co.uk/rss/theatre.xml
+    - desc: Book Reviews
+      url: http://dailyexpress.co.uk/rss/books.xml
+    - desc: TV Guide
+      url: http://dailyexpress.co.uk/rss/tv.xml
+    - desc: The Crusader
+      url: http://dailyexpress.co.uk/rss/crusader.xml
+    - desc: Money (All Areas)
+      url: http://dailyexpress.co.uk/rss/money.xml
+    - desc: City &amp; Business
+      url: http://dailyexpress.co.uk/rss/city.xml
+    - desc: Your Money
+      url: http://dailyexpress.co.uk/rss/yourmoney.xml
+    - desc: Columnists (All)
+      url: http://dailyexpress.co.uk/rss/columnists.xml
+    - desc: Motoring
+      url: http://dailyexpress.co.uk/rss/motoring.xml
+    - desc: Travel
+      url: http://dailyexpress.co.uk/rss/travel.xml
+    - desc: Competitions
+      url: http://dailyexpress.co.uk/rss/competitions.xml
+    - desc: Express BLOGS
+      url: http://dailyexpress.co.uk/rss/blogs.xml
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.dailyexpress.co.uk/feeds/
+- code: mirror
+  desc: Mirror.co.uk
+  feeds:
+    - desc: News
+      url: http://www.mirror.co.uk/news/rss.xml
+    - desc: 'News - Top Stories'
+      url: http://www.mirror.co.uk/news/topstories/rss.xml
+    - desc: 'News - Latest'
+      url: http://www.mirror.co.uk/news/latest/rss.xml
+    - desc: 'News - Voice of the Mirror'
+      url: http://www.mirror.co.uk/news/voiceofthemirror/rss.xml
+    - desc: 'News - Blogs'
+      url: http://www.mirror.co.uk/news/blogs/rss.xml
+    - desc: 'News - Health News'
+      url: http://www.mirror.co.uk/news/healthnews/rss.xml
+    - desc: 'News - Money News'
+      url: http://www.mirror.co.uk/news/money/rss.xml
+    - desc: 'News - Motoring News'
+      url: http://www.mirror.co.uk/news/motoring/rss.xml
+    - desc: 'News - Technology'
+      url: http://www.mirror.co.uk/news/technology/rss.xml
+    - desc: 'News - Investigates'
+      url: http://www.mirror.co.uk/news/investigates/rss.xml
+    - desc: 'News - Weird World'
+      url: http://www.mirror.co.uk/news/weirdworld/rss.xml
+    - desc: 'News - Jobs News'
+      url: http://www.mirror.co.uk/news/jobs/rss.xml
+    - desc: 'News - Columnists'
+      url: http://www.mirror.co.uk/news/columnists/rss.xml
+    - desc: 'News - Travel News'
+      url: http://www.mirror.co.uk/news/travel/rss.xml
+    - desc: 'News - Sunday Mirror'
+      url: http://www.mirror.co.uk/news/sundaymirror/rss.xml
+    - desc: 'News - Business Guide'
+      url: http://www.mirror.co.uk/news/businessguide/rss.xml
+    - desc: Sport
+      url: http://www.mirror.co.uk/sport/rss.xml
+    - desc: 'Sport - Latest'
+      url: http://www.mirror.co.uk/sport/latest/rss.xml
+    - desc: 'Sport - Football'
+      url: http://www.mirror.co.uk/sport/football/rss.xml
+    - desc: 'Sport - Rugby'
+      url: http://www.mirror.co.uk/sport/rugby/rss.xml
+    - desc: 'Sport - Racing'
+      url: http://www.mirror.co.uk/sport/racing/rss.xml
+    - desc: 'Sport - Cricket'
+      url: http://www.mirror.co.uk/sport/cricket/rss.xml
+    - desc: 'Sport - Columnists'
+      url: http://www.mirror.co.uk/sport/columnists/rss.xml
+    - desc: 'Sport - Sport Blogs'
+      url: http://www.mirror.co.uk/sport/blogs/rss.xml
+    - desc: 'Sport - Fantasy Football'
+      url: http://www.mirror.co.uk/sport/ytm/rss.xml
+    - desc: 'Sport - Athletics'
+      url: http://www.mirror.co.uk/sport/athletics/rss.xml
+    - desc: 'Sport - Boxing'
+      url: http://www.mirror.co.uk/sport/boxing/rss.xml
+    - desc: 'Sport - Tennis'
+      url: http://www.mirror.co.uk/sport/tennis/rss.xml
+    - desc: 'Sport - Golf'
+      url: http://www.mirror.co.uk/sport/golf/rss.xml
+    - desc: 'Sport - Snooker'
+      url: http://www.mirror.co.uk/sport/snooker/rss.xml
+    - desc: 'Sport - Motorsport'
+      url: http://www.mirror.co.uk/sport/motorsport/rss.xml
+    - desc: 'Sport - Darts'
+      url: http://www.mirror.co.uk/sport/darts/rss.xml
+    - desc: 'Sport - Competitions'
+      url: http://www.mirror.co.uk/sport/competitions/rss.xml
+    - desc: 'Sport - Poker'
+      url: http://www.mirror.co.uk/sport/poker/rss.xml
+    - desc: 'Sport - More'
+      url: http://www.mirror.co.uk/sport/more/rss.xml
+    - desc: Showbiz
+      url: http://www.mirror.co.uk/showbiz/rss.xml
+    - desc: 'Showbiz - Latest'
+      url: http://www.mirror.co.uk/showbiz/latest/rss.xml
+    - desc: 'Showbiz - 3am'
+      url: http://www.mirror.co.uk/showbiz/3am/rss.xml
+    - desc: 'Showbiz - Blogs'
+      url: http://www.mirror.co.uk/showbiz/blogs/rss.xml
+    - desc: 'Showbiz - The Ticket'
+      url: http://www.mirror.co.uk/showbiz/theticket/rss.xml
+    - desc: 'Showbiz - TV'
+      url: http://www.mirror.co.uk/showbiz/tv/rss.xml
+    - desc: 'Showbiz - Your Life'
+      url: http://www.mirror.co.uk/showbiz/yourlife/rss.xml
+    - desc: 'Showbiz - Competitions'
+      url: http://www.mirror.co.uk/showbiz/competitions/rss.xml
+    - desc: 'Showbiz - Bingo'
+      url: http://www.mirror.co.uk/showbiz/bingo/rss.xml
+    - desc: 'Showbiz - Filmstore'
+      url: http://www.mirror.co.uk/showbiz/filmstore/rss.xml
+    - desc: 'Showbiz - Slimming'
+      url: http://www.mirror.co.uk/showbiz/slimming/rss.xml
+    - desc: 'Showbiz - Dating'
+      url: http://www.mirror.co.uk/showbiz/dating/rss.xml
+    - desc: 'Showbiz - Horoscopes'
+      url: http://www.mirror.co.uk/showbiz/horoscopes/rss.xml
+    - desc: 'Showbiz - Movie Trailers'
+      url: http://www.mirror.co.uk/showbiz/trailers/rss.xml
+    - desc: 'Showbiz - Cinema Listings'
+      url: http://www.mirror.co.uk/showbiz/listings/rss.xml
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.mirror.co.uk/more/
+- code: sun
+  desc: The Sun
+  feeds:
+    - desc: News
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247682.ece"
+    - desc: Sport
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247732.ece"
+    - desc: Football
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247739.ece"
+    - desc: Bizarre
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247767.ece"
+    - desc: TV
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247787.ece"
+    - desc: Big Brother
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247776.ece"
+    - desc: Sun Woman
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247793.ece"
+    - desc: Gizmo
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247829.ece"
+    - desc: Viral Vault
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247816.ece"
+    - desc: Motors
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247904.ece"
+    - desc: Podcasts
+      url: http://thesun.co.uk/sol/homepage/feeds/rss/article247912.ece"
+    - desc: 'Video: Sun Exclusive'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Sun Exclusive&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Celebs Exposed'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Celebs Exposed&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Page3'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Page3&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Video Casebook'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Video Casebook&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Sky News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Sky News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Weather - UK'
+      url: 'http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Weather - UK&Format=flash&v=3&rsstype=mrss"'
+    - desc: 'Video: Virals'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Virals&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Sports'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Sports&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Kitchen'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Kitchen&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: On The Box'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=On The Box&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Jukebox'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Jukebox&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Film Trailers'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Film Trailers&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Comedy'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Comedy&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Sun Wild'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Sun Wild&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Motors'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Motors&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Fashion'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Fashion&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Trinny and Susannah'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Trinny and Susannah&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Green TV'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Green TV&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Justice'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Justice&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Fox World News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Fox World News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Fox US News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Fox US News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: World News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=World News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Sun City'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Sun City&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Fox Business'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Fox Business&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: And Finally'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=And Finally&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Fox Health'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Fox Health&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Parenting'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Parenting&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Health'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Health&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Police Bravery'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Police Bravery&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Gizmo'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Gizmo&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Gaming News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Gaming News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Poker'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Poker&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Entertainment News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Entertainment News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Music News'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Music News&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: World Films'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=World Films&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Fit Squad'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Fit Squad&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Food'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Food&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Dating'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Dating&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Test Drive'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Test Drive&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: X Factor'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=X Factor&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Challenge Lup'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Challenge Lup&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Babes Virals'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Babes Virals&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Viral Video Archive'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Viral Video Archive&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Sports Video Virals'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Sports Video Virals&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Motors Video Virals'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Motors Video Virals&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Animals Virals'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Animals Virals&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Funny Ads'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Funny Ads&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Celeb Virals'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Celeb Virals&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: A1'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=A1&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Wrestling'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Wrestling&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: UFC'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=UFC&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Extreme Sports'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Extreme Sports&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Cricket'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Cricket&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: 6 Nations'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=6 Nations&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: The Ashes'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=The Ashes&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Falklands'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Falklands&Format=flash&v=3&rsstype=mrss"
+    - desc: 'Video: Big Brother'
+      url: http://publish.vx.roo.com/g6publish/common/playlist/rssgeneratorportal.aspx?SiteId=6247211d-66e0-4454-b73a-3f1610efa39a&channel=Big Brother&Format=flash&v=3&rsstype=mrss"
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://thesun.co.uk/sol/homepage/hygiene/rss_sign_up/article247949.ece
+- code: star
+  desc: Daily Star
+  feeds:
+    - desc: News (all news sections)
+      url: http://www.dailystar.co.uk/rss/1/news/
+    - desc: Sport (all sport sections)
+      url: http://www.dailystar.co.uk/rss/2/sport/
+    - desc: Football
+      url: http://www.dailystar.co.uk/rss/58/football/
+    - desc: Racing
+      url: http://www.dailystar.co.uk/rss/59/racing/
+    - desc: Rugby League
+      url: http://www.dailystar.co.uk/rss/60/rugby/
+    - desc: Motor Sports
+      url: http://www.dailystar.co.uk/rss/61/motorsports/
+    - desc: In The Ring
+      url: http://www.dailystar.co.uk/rss/62/inthering/
+    - desc: Other Sport
+      url: http://www.dailystar.co.uk/rss/63/othersport/
+    - desc: TV (all tv sections)
+      url: http://www.dailystar.co.uk/rss/3/tv/
+    - desc: Big Brother
+      url: http://www.dailystar.co.uk/rss/47/bigbrother/
+    - desc: TV Pick of the Day
+      url: http://www.dailystar.co.uk/rss/26/tvguide/
+    - desc: Soaper Star
+      url: http://www.dailystar.co.uk/rss/10/soaperstar/
+    - desc: X Factor
+      url: http://www.dailystar.co.uk/rss/46/xfactor/
+    - desc: 'I�m A Celebrity - Get Me Out of Here!'
+      url: http://www.dailystar.co.uk/rss/71/getmeoutofhere/
+    - desc: Comment (all comment sections)
+      url: http://www.dailystar.co.uk/rss/4/comment/
+    - desc: Your Shout!
+      url: http://www.dailystar.co.uk/rss/83/yourshout/
+    - desc: Star Blogs
+      url: http://www.dailystar.co.uk/rss/54/blogs/
+    - desc: Columnists
+      url: http://www.dailystar.co.uk/rss/6/columnists/
+    - desc: Star Says
+      url: http://www.dailystar.co.uk/rss/5/starsays/
+    - desc: Celebrity (all celebrity sections)
+      url: http://www.dailystar.co.uk/rss/7/celebrity/
+    - desc: The Goss
+      url: http://www.dailystar.co.uk/rss/9/goss/
+    - desc: Playlist
+      url: http://www.dailystar.co.uk/rss/45/playlist/
+    - desc: The Biz
+      url: http://www.dailystar.co.uk/rss/12/thebiz/
+    - desc: Celeb News
+      url: http://www.dailystar.co.uk/rss/8/gossip/
+    - desc: Babes (all babes sections)
+      url: http://www.dailystar.co.uk/rss/16/babes/
+    - desc: Star Babes
+      url: http://www.dailystar.co.uk/rss/40/starbabes/
+    - desc: Celeb Babes Gallery
+      url: http://www.dailystar.co.uk/rss/19/celebbabes/
+    - desc: Britain's Top Models Nude
+      url: http://www.dailystar.co.uk/rss/89/topmodels/
+    - desc: Living (all living sections)
+      url: http://www.dailystar.co.uk/rss/20/living/
+    - desc: Motoring
+      url: http://www.dailystar.co.uk/rss/27/motoring/
+    - desc: Travel
+      url: http://www.dailystar.co.uk/rss/28/travel/
+    - desc: Diet & Fitness
+      url: http://www.dailystar.co.uk/rss/21/diet/
+    - desc: It's The Business
+      url: http://www.dailystar.co.uk/rss/30/money/
+    - desc: Cashpoint
+      url: http://www.dailystar.co.uk/rss/86/cashpoint/
+    - desc: Style
+      url: http://www.dailystar.co.uk/rss/22/style/
+    - desc: Jobs
+      url: http://www.dailystar.co.uk/rss/50/jobs/
+    - desc: Property
+      url: http://www.dailystar.co.uk/rss/49/property/
+    - desc: Reviews (all reviews sections)
+      url: http://www.dailystar.co.uk/rss/43/reviews/
+    - desc: Movie Reviews
+      url: http://www.dailystar.co.uk/rss/44/film/
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://www.dailystar.co.uk/feeds
+- code: scotsman
+  desc: The Scotsman
+  feeds:
+    - desc: Headlines
+      url: http://news.scotsman.com/index.cfm?format=rss
+    - desc: Latest News
+      url: http://news.scotsman.com/latest.cfm?format=rss
+    - desc: UK
+      url: http://news.scotsman.com/latest_uk.cfm?format=rss
+    - desc: International
+      url: http://news.scotsman.com/latest_international.cfm?format=rss
+    - desc: Entertainment
+      url: http://news.scotsman.com/latest_entertainment.cfm?format=rss
+    - desc: Odd
+      url: http://news.scotsman.com/latest_odd.cfm?format=rss
+    - desc: Technology
+      url: http://news.scotsman.com/latest_technology.cfm?format=rss
+    - desc: Scotland
+      url: http://news.scotsman.com/scotland.cfm?format=rss
+    - desc: Aberdeen
+      url: http://news.scotsman.com/aberdeen.cfm?format=rss
+    - desc: Dundee
+      url: http://news.scotsman.com/dundee.cfm?format=rss
+    - desc: Edinburgh
+      url: http://news.scotsman.com/edinburgh.cfm?format=rss
+    - desc: Glasgow
+      url: http://news.scotsman.com/glasgow.cfm?format=rss
+    - desc: Inverness
+      url: http://news.scotsman.com/inverness.cfm?format=rss
+    - desc: UK
+      url: http://news.scotsman.com/uk.cfm?format=rss
+    - desc: International
+      url: http://news.scotsman.com/international.cfm?format=rss
+    - desc: Politics
+      url: http://news.scotsman.com/politics.cfm?format=rss
+    - desc: Sci-Tech
+      url: http://news.scotsman.com/scitech.cfm?format=rss
+    - desc: Health
+      url: http://news.scotsman.com/health.cfm?format=rss
+    - desc: Education
+      url: http://news.scotsman.com/education.cfm?format=rss
+    - desc: Entertainment
+      url: http://news.scotsman.com/entertainment.cfm?format=rss
+    - desc: Movies
+      url: http://news.scotsman.com/movies.cfm?format=rss
+    - desc: Music
+      url: http://news.scotsman.com/music.cfm?format=rss
+    - desc: Arts
+      url: http://news.scotsman.com/arts.cfm?format=rss
+    - desc: Celebrities
+      url: http://news.scotsman.com/celebrities.cfm?format=rss
+    - desc: Gaelic
+      url: http://news.scotsman.com/gaelic.cfm?format=rss
+    - desc: Opinion
+      url: http://news.scotsman.com/opinion.cfm?format=rss
+    - desc: Leaders
+      url: http://news.scotsman.com/leaders.cfm?format=rss
+    - desc: Columnists
+      url: http://news.scotsman.com/columnists.cfm?format=rss
+    - desc: Obituaries
+      url: http://news.scotsman.com/obituaries.cfm?format=rss
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://webfeeds.scotsman.com/
+- code: bbc
+  desc: BBC
+  feeds:
+    - desc: News Front Page
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/front_page/rss.xml
+    - desc: World
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/world/rss.xml
+    - desc: UK
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/uk/rss.xml
+    - desc: England
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/england/rss.xml
+    - desc: Northern Ireland
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/northern_ireland/rss.xml
+    - desc: Scotland
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/scotland/rss.xml
+    - desc: Wales
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/wales/rss.xml
+    - desc: Business
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/business/rss.xml
+    - desc: Politics
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/uk_politics/rss.xml
+    - desc: Health
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/health/rss.xml
+    - desc: Education
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/education/rss.xml
+    - desc: Science/Nature
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/sci/tech/rss.xml
+    - desc: Technology
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/technology/rss.xml
+    - desc: Entertainment
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/entertainment/rss.xml
+    - desc: Have Your Say
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/talking_point/rss.xml
+    - desc: Magazine
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/magazine/rss.xml
+    - desc: Week At a Glance
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/week_at-a-glance/rss.xml
+    - desc: Programmes
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/programmes/rss.xml
+    - desc: Latest Published Stories
+      url: http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/latest_published_stories/rss.xml
+  get: !perl/code: '{ "DUMMY" }'
+  start: http://news.bbc.co.uk/1/hi/help/rss/default.stm
